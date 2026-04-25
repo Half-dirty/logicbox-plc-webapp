@@ -1,3 +1,7 @@
+# Windows ADS / WSL metadata
+*:Zone.Identifier
+
+# LaTeX temporary files
 *.aux
 *.bbl
 *.bcf
@@ -14,17 +18,14 @@
 *.synctex.gz
 *.toc
 *.xdv
+
+# Editor junk
 .vscode/
 .idea/
-__pycache__/
-bin/
-dist/
-tmp/
-temp/
-*.sqlite
-*.sqlite3
-*.db
+*~
+*.swp
+
+# OS junk
 .DS_Store
 Thumbs.db
 desktop.ini
-*~
