@@ -1,0 +1,6 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\MakeUppercase []{Введение}}{3}{Doc-Start}%
+\contentsline {section}{\MakeUppercase []{Глава 1. Анализ предметной области}}{5}{Doc-Start}%
+\contentsline {subsection}{\numberline {1.1}Анализ особенностей работы с конфигурациями и диагностическими данными ПЛК LogicBox в системах АСУТП}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Обзор существующих программных решений для учета конфигураций, журналов событий и сопровождения PLC-проектов}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Формулировка цели, задач и функциональных требований к разрабатываемому веб-приложению}{10}{subsection.1.3}%
