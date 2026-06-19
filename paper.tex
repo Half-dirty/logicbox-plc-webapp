@@ -1,5 +1,7 @@
+
 \documentclass[14pt, a4paper]{extarticle}
 \usepackage{mospolytech_coursework}
+\usepackage{float}
 
 % Данные работы
 \newcommand{\theme}{%
@@ -13,18 +15,16 @@
 
 \begin{document}
 
-% Титульный лист
 \include{title}
-
-% Содержание
+\includepdf[pages=-]{task.pdf}
 \tableofcontents
-
-% Введение и 1 глава
 \include{intro}
 \include{chapter1}
-
-% Список литературы
+\include{chapter2}
+\include{chapter3}
+\include{conclusion}
 \bibliographystyle{ugost2003}
 \bibliography{refs}
+\include{appendix}
 
 \end{document}
