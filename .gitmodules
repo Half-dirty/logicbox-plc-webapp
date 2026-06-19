@@ -1,0 +1,3 @@
+[submodule "logicbox_webapp_ready"]
+	path = logicbox_webapp_ready
+	url = https://github.com/Half-dirty/logicbox-web.git
