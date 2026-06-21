@@ -218,6 +218,7 @@ CHECK (status IN ('active','detached'));
 
 Состав основных интерфейсов приложения представлен в \tabref{tab:chapter3_interfaces}.
 
+\Needspace{26\baselineskip}
 \begin{center}
     \small
     \captionof{table}{Основные пользовательские интерфейсы приложения}
@@ -239,6 +240,7 @@ CHECK (status IN ('active','detached'));
 
 При создании ПЛК сервер проверяет, что выбранный объект является доступным шкафом. Данная проверка выполняется независимо от того, пришел ли запрос из общей формы или из карточки шкафа. Это защищает систему от подмены \texttt{object\_id} в форме.
 
+\Needspace{16\baselineskip}
 \begin{samepage}
 \begin{lstlisting}[caption={Проверка привязки ПЛК только к шкафу}, label={lst:chapter3_controller_cabinet}]
 func (s *Server) isAvailableCabinetObject(ctx context.Context,
@@ -345,6 +347,8 @@ func (s *Server) isManagedStoragePath(path string) bool {
 Разделение рабочих и архивных данных устраняет противоречие между двумя требованиями. С одной стороны, архивные ПЛК не должны мешать текущей эксплуатации и отображаться в обычных списках. С другой стороны, исторические данные нельзя терять, так как они могут понадобиться для анализа изменений, расследования неисправностей или восстановления информации о предыдущем состоянии оборудования.
 
 Основные правила жизненного цикла ПЛК представлены в \tabref{tab:chapter3_controller_lifecycle}.
+
+\clearpage
 
 \begin{center}
     \small
